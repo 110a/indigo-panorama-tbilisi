@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "GL Satitulo";
+  src: url("../../fonts/GLSatitulo-Regular.woff2") format("woff2"), url("../../fonts/GLSatitulo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BPG Nino Mkhedruli Book";
+  src: url("../../fonts/BPGNinoMkhedruliBook.woff2") format("woff2"), url("../../fonts/BPGNinoMkhedruliBook.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+.welcome-cont {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.welcome-cont .wc-title {
+  font-family: "GL Satitulo", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.welcome-cont .wc-title h1 {
+  font-size: 3.75em;
+  display: inline-block;
+  width: 600px;
+  font-weight: 100;
+}
+.welcome-cont .wc-title p {
+  margin-top: 20px;
+  font-family: "BPG Nino Mkhedruli Book", sans-serif;
+  font-size: 1.125em;
+}
+.welcome-cont .wc-title.out {
+  animation: fade-out-top 1000ms ease-out;
+}
+.welcome-cont .wc-play {
+  width: 120px;
+  height: 100px;
+  background: url(../../image/border.png);
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 80px 0;
+  cursor: pointer;
+}
+.welcome-cont .wc-play .wc-button {
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 40px;
+  margin-left: 5px;
+  border-color: transparent transparent transparent #9E7978;
+  transition: 250ms all ease;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 20px 0 20px 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+  -moz-transform: translate(-50%, -40%);
+  -ms-transform: translate(-50%, -40%);
+  -o-transform: translate(-50%, -40%);
+  transform: translate(-50%, -40%);
+}
+.welcome-cont .wc-play.out {
+  animation: spinning 1000ms linear;
+}
+.welcome-cont .wc-text {
+  display: inline-block;
+  width: auto;
+  text-align: center;
+}
+.welcome-cont .wc-text p {
+  font-family: "BPG Nino Mkhedruli Book", sans-serif;
+  font-size: 1.375em;
+  color: #fff;
+  margin: 10px;
+}
+.welcome-cont .wc-text.out {
+  animation: fade-out-bottom 1000ms ease-out;
+}
+
+@keyframes spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes fade-out-top {
+  from {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh);
+    transform: translateY(-100vh);
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes fade-out-bottom {
+  from {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(100vh);
+    -moz-transform: translateY(100vh);
+    -ms-transform: translateY(100vh);
+    -o-transform: translateY(100vh);
+    transform: translateY(100vh);
+    opacity: 0;
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=welcome-cont.css.map */
