@@ -9,4 +9,6 @@ document.querySelector('.wc-play').addEventListener('click',function () {
     setTimeout(function () {
         wcont.style.display = "none";
     },900)
+    /* temporary script by ani */
+    document.querySelector('.part-1').classList.add('active');
 });

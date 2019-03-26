@@ -328,3 +328,70 @@ body .overlay .main-content .sound-timing .timing span.delimiter {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* section styles */
+section {
+  position: relative;
+}
+.flex-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0 140px;
+}
+.part-1 {
+  display: none;
+}
+.part-1.active {
+  display: block;
+}
+section h1, section h2, section h3 {
+  font-family: "GL Satitulo";
+  color: #fff;
+  font-weight: normal;
+  padding-right: 80px;
+  max-width: 400px;
+  font-size: 40px;
+}
+section h3 {
+  font-family: "GL Satitulo";
+  color: #fff;
+  font-weight: normal;
+  padding-right: 0px;
+  max-width: 400px;
+  font-size: 16px;
+  font-family: "BPG Nino Mkhedruli Book";
+  line-height: 26px;
+  padding-left: 70px;
+}
+section h3:before {
+  content: '"';
+  display: block;
+  font-size: 40px;
+}
+section h3:after {
+  content: '"';
+  display: block;
+  font-size: 40px;
+  align-self: auto;
+  margin-top: 30px;
+  padding-right: 100px;
+  float: right;
+}
+section.part-1:after {
+    content: "";
+    background-image: url('../../image/outline.svg');
+}
+section.part-1:after {
+    content: "";
+    background-image: url('../../image/outline.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+}
