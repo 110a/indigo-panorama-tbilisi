@@ -380,12 +380,8 @@ section.part-1.active .flex-align .headings.main-heading {
 }
 section.part-1.active .flex-align h3 {
   color: #fff;
-  font-weight: normal;
-  padding-right: 0px;
+  padding-right: 0;
   max-width: 400px;
-  font-size: 16px;
-  font-family: "BPG Nino Mkhedruli Book", sans-serif;
-  line-height: 26px;
   padding-left: 70px;
   -webkit-transition: opacity(250ms);
   -moz-transition: opacity(250ms);
@@ -394,12 +390,18 @@ section.part-1.active .flex-align h3 {
   transition: opacity(250ms);
   opacity: 1;
 }
-section.part-1.active .flex-align h3:before {
+section.part-1.active .flex-align h3 .inner-text {
+  font-weight: normal;
+  font-size: 16px;
+  font-family: "BPG Nino Mkhedruli Book", sans-serif;
+  line-height: 26px;
+}
+section.part-1.active .flex-align h3 .q-sign.before {
   content: '"';
   display: block;
   font-size: 40px;
 }
-section.part-1.active .flex-align h3:after {
+section.part-1.active .flex-align h3 .q-sign.after {
   content: '"';
   display: block;
   font-size: 40px;

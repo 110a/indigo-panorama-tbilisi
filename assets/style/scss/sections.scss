@@ -33,23 +33,26 @@ section {
         }
         h3{
           color: #fff;
-          font-weight: normal;
-          padding-right: 0px;
+          padding-right: 0;
           max-width: 400px;
-          font-size: 16px;
-          font-family: $font-nino;
-          line-height: 26px;
           padding-left: 70px;
           @include transition(opacity(250ms));
           opacity: 1;
 
-          &:before{
+          .inner-text{
+            font-weight: normal;
+            font-size: 16px;
+            font-family: $font-nino;
+            line-height: 26px;
+          }
+
+          .q-sign.before{
             content: '"';
             display: block;
             font-size: 40px;
           }
 
-          &:after {
+          .q-sign.after{
             content: '"';
             display: block;
             font-size: 40px;
