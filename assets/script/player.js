@@ -9,7 +9,6 @@ let currentTime = document.querySelector('.current-time');
 let progress = document.querySelector('.progress');
 let soundControl = document.getElementsByClassName('cls-1');
 let lastVolume = audio.volume;
-console.log(lastVolume);
 for(let i =0; i<soundControl.length; i++){
     soundControl[i].classList.add('active');
 }

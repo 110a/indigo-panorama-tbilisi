@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e07f73-40c0-4ff0-ab2f-9eb0ffce1fba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/script/textImageChanger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/scss/sections.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/script/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/css/play-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/play-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/css/player.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/player.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/css/welcome-cont.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/welcome-cont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +30,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="205">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/script/textImageChanger.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/style/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2151">
+              <caret line="423" column="37" selection-start-line="423" selection-start-column="37" selection-end-line="423" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/style/scss/sections.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -28,26 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/script/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/script/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="644">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/style/scss/player.scss">
+        <entry file="file://$PROJECT_DIR$/assets/script/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="138">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -56,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/assets/style/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -73,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/style/scss/welcome-cont.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1587">
+            <state relative-caret-position="702">
               <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
@@ -82,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/style/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1702">
+            <state relative-caret-position="495">
               <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
             </state>
           </provider>
@@ -117,11 +146,20 @@
       <find>#ffffff</find>
       <find>top</find>
       <find>main</find>
+      <find>.flex-align</find>
+      <find>h3</find>
+      <find>upda</find>
+      <find>console.log</find>
+      <find>headings</find>
     </findStrings>
     <replaceStrings>
       <replace>height: 12px</replace>
       <replace />
+      <replace>title</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\malkhaz.gelashvili\Documents\GitHub\indigo-panorama-tbilisi\assets\style\scss</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,13 +173,16 @@
         <option value="$PROJECT_DIR$/assets/style/css/main.css" />
         <option value="$PROJECT_DIR$/assets/style/scss/play-button.scss" />
         <option value="$PROJECT_DIR$/assets/style/scss/player.scss" />
-        <option value="$PROJECT_DIR$/assets/style/scss/style.scss" />
         <option value="$PROJECT_DIR$/assets/style/scss/variables.scss" />
         <option value="$PROJECT_DIR$/assets/style/scss/welcome-cont.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/script/player.js" />
         <option value="$PROJECT_DIR$/assets/style/scss/main.scss" />
         <option value="$PROJECT_DIR$/assets/script/script.js" />
+        <option value="$PROJECT_DIR$/assets/style/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/style/scss/style.scss" />
+        <option value="$PROJECT_DIR$/assets/script/player.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/style/scss/sections.scss" />
+        <option value="$PROJECT_DIR$/assets/script/textImageChanger.js" />
       </list>
     </option>
   </component>
@@ -156,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,11 +205,34 @@
               <item name="indigo-panorama-tbilisi" type="b2602c69:ProjectViewProjectNode" />
               <item name="indigo-panorama-tbilisi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="indigo-panorama-tbilisi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="indigo-panorama-tbilisi" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="indigo-panorama-tbilisi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="indigo-panorama-tbilisi" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="indigo-panorama-tbilisi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="indigo-panorama-tbilisi" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="indigo-panorama-tbilisi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="indigo-panorama-tbilisi" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,22 +269,23 @@
       <workItem from="1553493412399" duration="390000" />
       <workItem from="1553494236508" duration="31331000" />
       <workItem from="1553598087084" duration="3648000" />
-      <workItem from="1553684914936" duration="256000" />
+      <workItem from="1553684914936" duration="812000" />
+      <workItem from="1553693086413" duration="6813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44172000" />
+    <option name="totallyTimeSpent" value="51541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22708113" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22708113" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="npm" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32887402" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -265,13 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/style/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style/scss/play-button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -286,13 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/style/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -300,38 +352,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/style/scss/welcome-cont.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style/scss/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1702">
+        <state relative-caret-position="495">
           <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="138">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style/scss/welcome-cont.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2151">
+          <caret line="423" column="37" selection-start-line="423" selection-start-column="37" selection-end-line="423" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style/scss/sections.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/textImageChanger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
         </state>
       </provider>
     </entry>
