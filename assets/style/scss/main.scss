@@ -10,61 +10,70 @@
 
 body{
   overflow: hidden;
-  background: url(../../image/back.png);
+  background: url(../../image/city.png) no-repeat;
   background-size: 100%;
+  background-position-y: -150px;
 
-  .overlay {
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    left: 0;
+  .background {
+    background: url(../../image/back1.png) no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100%;
-    background: rgba(2, 2, 2, .8);
+    position: absolute;
+    .overlay {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(2, 2, 2, .8);
 
-    .main-content{
+      .main-content {
         opacity: 0;
-      @include transition(opacity 1000ms);
-      .sound-timing {
-        position: relative;
-        padding: 15px;
+        @include transition(opacity 1000ms);
 
-        .sound-button {
-          display: inline-block;
-          width: 55px;
-          height: 39px;
+        .sound-timing {
+          position: relative;
+          padding: 15px;
 
-          .cls-1 {
-            @include transition(all 250ms);
-            cursor: pointer;
-            opacity: 0.5;
+          .sound-button {
+            display: inline-block;
+            width: 55px;
+            height: 39px;
 
-            &:hover {
-              opacity: 1;
-            }
+            .cls-1 {
+              @include transition(all 250ms);
+              cursor: pointer;
+              opacity: 0.5;
 
-            &.active {
-              opacity: 1;
+              &:hover {
+                opacity: 1;
+              }
+
+              &.active {
+                opacity: 1;
+              }
             }
           }
-        }
 
-        .timing {
-          display: inline-block;
-          @include transform(rotate(-90deg));
-          position: absolute;
-          bottom: -55px;
-          left: -26px;
-
-          span {
-            font-family: $font-nino;
-            font-size: px-to-em(24);
-            color: $track-color;
-            width: 50px;
+          .timing {
             display: inline-block;
+            @include transform(rotate(-90deg));
+            position: absolute;
+            bottom: -55px;
+            left: -26px;
 
-            &.delimiter {
-              width: 10px;
+            span {
+              font-family: $font-nino;
+              font-size: px-to-em(24);
+              color: $track-color;
+              width: 50px;
+              display: inline-block;
+
+              &.delimiter {
+                width: 10px;
+              }
             }
           }
         }
