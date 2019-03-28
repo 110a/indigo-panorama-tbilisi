@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13e07f73-40c0-4ff0-ab2f-9eb0ffce1fba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/script/textImageChanger.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/textImageChanger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/css/sections.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/sections.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/css/sections.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/sections.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/scss/sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="13e07f73-40c0-4ff0-ab2f-9eb0ffce1fba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/script/textImageChanger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="437">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -264,16 +256,15 @@
       <workItem from="1553494236508" duration="31331000" />
       <workItem from="1553598087084" duration="3648000" />
       <workItem from="1553684914936" duration="812000" />
-      <workItem from="1553693086413" duration="8987000" />
+      <workItem from="1553693086413" duration="10243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53715000" />
+    <option name="totallyTimeSpent" value="54971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22708113" />
@@ -388,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/style/scss/sections.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -402,10 +386,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style/scss/sections.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/textImageChanger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="437">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
