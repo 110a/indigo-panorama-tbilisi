@@ -27,6 +27,8 @@ let text = document.querySelector(".inner-text");
 let current = 0;
 let qbefore = document.querySelector('.q-sign.before');
 let qafter = document.querySelector('.q-sign.after');
+
+
 let textImageHandler = () =>{
     if (audio.currentTime >= parseInt(textImages[current].appearTime) ){
         title.innerHTML = textImages[current].title;
@@ -35,6 +37,7 @@ let textImageHandler = () =>{
         current++;
     }
     if(current > 1){
+
         qbefore.style.visibility="hidden";
         qafter.style.visibility="hidden";
         text.style.fontFamily = "\"GL Satitulo\", sans-serif";

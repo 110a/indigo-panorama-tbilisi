@@ -24,7 +24,7 @@ section {
           padding-right: 80px;
           max-width: 400px;
           font-size: 40px;
-          @include transition(opacity(250ms));
+          @include transition(opacity 250ms);
           opacity: 1;
 
           &.main-heading{
@@ -36,7 +36,7 @@ section {
           padding-right: 0;
           max-width: 400px;
           padding-left: 70px;
-          @include transition(opacity(250ms));
+          @include transition(opacity 250ms);
           opacity: 1;
 
           .inner-text{
