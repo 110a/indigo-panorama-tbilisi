@@ -7,7 +7,7 @@ const textImages = [
     {appearTime:60, title:"1985 წელი", subtitle:"", text:"1985 წლიდან, ქალაქის ამ ისტორიულ ნაწილს სამი ზონა იცავს."},
     {appearTime:84, title:"ისტორიული განაშენიანების<br> დაცვის ზონა", subtitle:"", text:"ისტორიული განაშენიანების დაცვის ზონაში დღესაც დაუშვებელია მშენებლობა."},
     {appearTime:95, title:"1985 წელი", subtitle:"კ<br>ა<br>ნ<br>ო<br>ნ<br>ი: ", text:"1985 წლიდან კანონი იცავს თბილისის ბუნებრივს რელიეფს."},
-    {appearTime:122, title:"1985 წელი", subtitle:"დ<br>ა<br>დ<br>გ<br>ე<br>ნ<br>ი<br>ლ<br>ე<br>ბ<br>ა:", text:"1985 წლის დადგენილებას დღემდე არ დაუკარგავს ძალა."},
+    {appearTime:122, title:"1985 წელი", subtitle:"დ<br>ა<br>დ<br>გ<br>ე<br>ნ<br>ი<br>ლ<br>ე<br>ბ<br>ა<br>:", text:"1985 წლის დადგენილებას დღემდე არ დაუკარგავს ძალა."},
     {appearTime:135, title:"სოლოლაკის ქედი", subtitle:"ნ<br>ე<br>ბ<br>ა<br>რ<br>თ<br>ვ<br>ი<br>ს<br>გ<br>ა<br>რ<br>ე<br>შ<br>ე<br>:", text:"სოლოლაკის ქედზე, ბიძინა ივანიშვილის საცხოვრებელი სახლისა და ბიზნეს კომპლექსის მშენებლობა ნებართვის გარეშე დაიწყო."},
     {appearTime:158, title:"მშენებლობის გასამართლებლად", subtitle:"ე<br>ქ<br>ს<br>კ<br>ლ<br>უ<br>ზ<br>ი<br>უ<br>რ<br>ი<br>ნ<br>ე<br>ბ<br>ა<br>რ<br>თ<br>ვ<br>ა<br>:", text:"დაწყებული მშენებლობის გასამართლებლად, იმ დროინდელმა კულტურის მინისტრმა, გიორგი გაბაშვილმა ექსკლუზიური ნებართვა გასცა."},
     {appearTime:170, title:"სამშენებლო ბუმი", subtitle:"", text:"და ისტორიულ ლანდშაფტის ზონაში სამშენებლო ბუმი დაიწყო."},
@@ -29,11 +29,15 @@ let qbefore = document.querySelector('.q-sign.before');
 let qafter = document.querySelector('.q-sign.after');
 
 
+
+
 let textImageHandler = () =>{
     if (audio.currentTime >= parseInt(textImages[current].appearTime) ){
         title.innerHTML = textImages[current].title;
         subtitle.innerHTML = textImages[current].subtitle;
         text.innerHTML = textImages[current].text;
+
+        document.querySelector('.background').classList.add('black-hole');
         current++;
     }
     if(current > 1){
