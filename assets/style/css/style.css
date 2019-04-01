@@ -152,7 +152,7 @@ body {
   transform: translate(0,0px);
 }
 body, .panorama, .bg-black, .bg-black-hole, .flex-align, .main-content, main, .track:after {
-  min-height: 600px;
+  min-height: 550px;
 }
 body .background .overlay {
   position: absolute;
@@ -264,7 +264,7 @@ main {
   background-size: 100%;
   display: inline-block;
   position: relative;
-  margin: 80px 0;
+  margin: 70px 0;
   cursor: pointer;
 }
 .welcome-cont .wc-play .wc-button {
@@ -366,10 +366,10 @@ main {
 }
  @keyframes panorama{
   from {
-    transform: translate(0, 0);
+    transform: translate(1800px, 0);
   }
   to {
-    transform: translate(1700px, 0);
+    transform: translate(0px, 0);
   }
 }
 /*@keyframes map{
