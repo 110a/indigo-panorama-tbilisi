@@ -1,88 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/style/css/style.css">
-    <title>პანორამა</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/style/css/style.css">
+  <title>პანორამა</title>
 </head>
 <body>
-    <header></header>
-    <main>
-        <div class="background">
-            <div class="overlay">
-                <div class="welcome-cont">
-                    <div class="wc-title">
-                        <h1>თბილისის ისტორიული ლანდშაფტის აკრძალული განაშენიანება</h1>
-                        <p>აცტორი : ანანნო ცინცაბაძე</p>
-                    </div>
-                    <div class="wc-play">
-                        <button class="wc-button"></button>
-                    </div>
-                    <div class="wc-text">
-                        <p>
-                            მულტიმედია ისტორია ეყრდნობა “ინიციატივა საჯარო სივრცისთვის“ კვლევის
-                            “როგორ გახდა შესაძლებელი პანორამა თბილისის მშენებლობა ისტორიული ლანდშაფტის დაცვის ზონაში“ მიგნებებს.
-                        </p>
-                        <p>კვლევის ავტორები: ანანო ცინცაბაძე, ნანო ზაზანაშვილი</p>
-                    </div>
-                </div>
-                <div class="main-content">
-                    <div class="sound-timing">
-                        <div class="sound-button">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.32 39.54">
-                                <defs><style>.cls-1{fill:#9e7978;}</style></defs>
-                                <title>Asset 2</title>
-                                <g id="Layer_2" data-name="Layer 2">
-                                    <g id="Layer_1-2" data-name="Layer 1">
-                                        <path class="cls-1 mute" d="M24.71,4.21a2,2,0,0,0-2,0L9.36,11.85H2a2,2,0,0,0-2,2V25.69a2,2,0,0,0,2,2H9.36l13.38,7.65a2,2,0,0,0,3-1.72V5.92A2,2,0,0,0,24.71,4.21Z"/>
-                                        <path class="cls-1 first" d="M30.4,12.29a2,2,0,0,0-.3,2.78h0a7.94,7.94,0,0,1,0,9.38,2,2,0,1,0,3.07,2.5v0a11.81,11.81,0,0,0,0-14.34A2,2,0,0,0,30.4,12.29Z"/>
-                                        <path class="cls-1 second" d="M38.3,6.36A2,2,0,0,0,38,9.14h0a17.74,17.74,0,0,1,0,21.25,2,2,0,1,0,3.07,2.5v0a21.88,21.88,0,0,0,0-26.2A2,2,0,0,0,38.3,6.36Z"/>
-                                        <path class="cls-1 third" d="M49,.73a2,2,0,0,0-3.08,2.48,27.65,27.65,0,0,1,0,33.11A2,2,0,1,0,49,38.81v0A31.79,31.79,0,0,0,49,.73Z"/>
-                                    </g>
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="timing">
-                            <span class="current-time">00:00</span>
-                            <span class="delimiter">/</span>
-                            <span class="duration-time">00:00</span>
-                        </div>
-                    </div>
-                    <div class="video-player">
-                        <audio src="assets/audio/audio.mp3" class="audio"  preload="metadata"></audio>
-                        <div class="controls">
-                            <button class="play">
-                            </button>
-                            <!--                <input type="range" class="progress">-->
-                            <div class="progress" style="display: inline-block;">
-                                <span class="track"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <section class="part-1">
-          <div class="flex-align ">
-            <h1 class="headings main-heading">2015 წელი<br/>8 სექტემბერი</h1>
-            <h2 class="headings">წ<br/>ე<br/>რ<br/>ი<br/>ლ<br/>ი<br/>:</h2>
-            <h3 class="quotes heading">
-                <span class="q-sign before">"</span>
-                <span class="inner-text">
-                    თბილისი მდინარის ხეობის გასწვრივ გაშენებული, მთებს შორის მოქცეული გამორჩეული სილამაზის ქ
-                    ალაქია. ამ ჰარმონიას სწორედ მისი ბუნებრივი გარემო ქმნის. თბილისის ქედები 1975 წლიდანაა დაცული,
-                    რადგან ისინი ქალაქის ხასიათისა და მისი კულტურული მნიშვნელობის განუყოფელი ნაწილია
-                </span>
-                <span class="q-sign after">"</span>
-            </h3>
+  <span class="panorama"></span>
+  <span class="bg-black-hole"></span>
+  <span class="bg-black"></span>
+  <header></header>
+  <main>
+    <div class="background">
+      <div class="overlay">
+        <div class="welcome-cont">
+          <div class="wc-title">
+            <h1>თბილისის ისტორიული ლანდშაფტის აკრძალული განაშენიანება</h1>
+            <p>აცტორი: ანანო ცინცაბაძე</p>
           </div>
-        </section>
+          <div class="wc-play">
+            <button class="wc-button"></button>
+          </div>
+          <div class="wc-text">
+            <p>
+              მულტიმედია ისტორია ეყრდნობა “ინიციატივა საჯარო სივრცისთვის“ კვლევის
+              “როგორ გახდა შესაძლებელი პანორამა თბილისის მშენებლობა ისტორიული ლანდშაფტის დაცვის ზონაში“ მიგნებებს.
+            </p>
+            <p>კვლევის ავტორები: ანანო ცინცაბაძე, ნანო ზაზანაშვილი</p>
+          </div>
         </div>
-    </main>
-    <footer></footer>
+        <div class="main-content">
+          <div class="sound-timing">
+            <div class="sound-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.32 39.54">
+                <defs><style>.cls-1{fill:#9e7978;}</style></defs>
+                <title>Asset 2</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <path class="cls-1 mute" d="M24.71,4.21a2,2,0,0,0-2,0L9.36,11.85H2a2,2,0,0,0-2,2V25.69a2,2,0,0,0,2,2H9.36l13.38,7.65a2,2,0,0,0,3-1.72V5.92A2,2,0,0,0,24.71,4.21Z"/>
+                    <path class="cls-1 first" d="M30.4,12.29a2,2,0,0,0-.3,2.78h0a7.94,7.94,0,0,1,0,9.38,2,2,0,1,0,3.07,2.5v0a11.81,11.81,0,0,0,0-14.34A2,2,0,0,0,30.4,12.29Z"/>
+                    <path class="cls-1 second" d="M38.3,6.36A2,2,0,0,0,38,9.14h0a17.74,17.74,0,0,1,0,21.25,2,2,0,1,0,3.07,2.5v0a21.88,21.88,0,0,0,0-26.2A2,2,0,0,0,38.3,6.36Z"/>
+                    <path class="cls-1 third" d="M49,.73a2,2,0,0,0-3.08,2.48,27.65,27.65,0,0,1,0,33.11A2,2,0,1,0,49,38.81v0A31.79,31.79,0,0,0,49,.73Z"/>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="timing">
+              <span class="current-time">00:00</span>
+              <span class="delimiter">/</span>
+              <span class="duration-time">00:00</span>
+            </div>
+          </div>
+          <div class="video-player">
+            <audio src="assets/audio/audio.mp3" class="audio"  preload="metadata"></audio>
+            <div class="controls">
+              <button class="play">
+              </button>
+              <!--  <input type="range" class="progress">-->
+              <div class="progress" style="display: inline-block;">
+                <span class="track"></span>
+              </div>
+            </div>
+          </div>
 
-    <script src="assets/script/player.js"></script>
-    <script src="assets/script/script.js"></script>
-    <script src="assets/script/textImageChanger.js"></script>
+        </div>
+      </div>
+      <section class="part-1">
+        <div class="flex-align ">
+          <h1 class="headings main-heading">2015 წელი<br/>8 სექტემბერი</h1>
+          <h2 class="headings">წ<br/>ე<br/>რ<br/>ი<br/>ლ<br/>ი<br/>:</h2>
+          <h3 class="quotes heading">
+            <span class="q-sign before">"</span>
+            <span class="inner-text">
+              თბილისი მდინარის ხეობის გასწვრივ გაშენებული, მთებს შორის მოქცეული გამორჩეული სილამაზის ქ
+              ალაქია. ამ ჰარმონიას სწორედ მისი ბუნებრივი გარემო ქმნის. თბილისის ქედები 1975 წლიდანაა დაცული,
+              რადგან ისინი ქალაქის ხასიათისა და მისი კულტურული მნიშვნელობის განუყოფელი ნაწილია
+            </span>
+            <span class="q-sign after">"</span>
+          </h3>
+        </div>
+        <!-- <span class="outline"></span> -->
+      </section>
+    </div>
+    <span class="the-end"></span>
+  </main>
+  <footer></footer>
+
+  <script src="assets/script/player.js"></script>
+  <script src="assets/script/script.js"></script>
+  <script src="assets/script/textImageChanger.js"></script>
 </body>
 </html>

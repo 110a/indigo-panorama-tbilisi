@@ -1,7 +1,7 @@
 const textImages = [
     {appearTime:0, title:"2015 წელი <br> 8 სექტემბერი", subtitle: "წ<br>ე<br>რ<br>ი<br>ლ<br>ი<br>: ", text:"თბილისი მდინარის ხეობის გასწვრივ გაშენებული, მთებს შორის მოქცეული გამორჩეული სილამაზის ქალაქია. ამ ჰარმონიას სწორედ მისი ბუნებრივი გარემო ქმნის. თბილისის ქედები 1975 წლიდანაა დაცული, რადგან ისინი ქალაქის ხასიათისა და მისი კულტურული მნიშვნელობის განუყოფელი ნაწილია."},
-    {appearTime:20, title:"14 საერთაშორისო <br> ორგანიზაციის", subtitle:"თ<br>ხ<br>ო<br>ვ<br>ნ<br>ა<br>: ", text:"14 საერთაშორისო ორგანიზაცია საქართველოს მთავრობას სთხოვდა არ დაეშვათ თბილისის ისტორიული ლანდშაფტის გულში „პანორამა თბილისის“ აშენება. "},
-    {appearTime:33, title:"თბილისი", subtitle:"", text:"თბილისი მდინარის ხეობის გასწვრივ გაშენებული, მთებს შორის მოქცეული ქალაქია."},
+    {appearTime:20, title:"14 საერთაშორისო <br> ორგანიზაციის", subtitle:"თ<br>ხ<br>ო<br>ვ<br>ნ<br>ა<br>: ", text:"14 საერთაშორისო ორგანიზაცია საქართველოს მთავრობას სთხოვდა არ დაეშვათ თბილისის ისტორიული ლანდშაფტის გულში „პანორამა თბილისის“ აშენება. ", img:"fade-out"},
+    {appearTime:33, title:"თბილისი", subtitle:"", text:"თბილისი მდინარის ხეობის გასწვრივ გაშენებული, მთებს შორის მოქცეული ქალაქია.", img:"fade-out"},
     {appearTime:42, title:"ჰარმონია", subtitle:"", text:"ჰარმონიას თბილისის ბუნებრივი გარემო ქმნის. "},
     {appearTime:50, title:"თბილისი", subtitle:"", text:"თბილისის ქედები მისი ხასიათის განუყოფელი ნაწილია."},
     {appearTime:60, title:"1985 წელი", subtitle:"", text:"1985 წლიდან, ქალაქის ამ ისტორიულ ნაწილს სამი ზონა იცავს."},
@@ -18,12 +18,14 @@ const textImages = [
     {appearTime:260, title:"ახალი გენ-გეგმა", subtitle:"", text:"ახალ გენ-გეგმაში ისტორიული ლანდშაფტის დაცვის ზონა ისევ ბრუნდება."},
     {appearTime:270, title:"გერგეთის ქუჩა <br> N 1", subtitle:"პ<br>ი<br>რ<br>ო<br>ბ<br>ა<br>:", text:"თბილისის მერი პირობას დებს რომ შეჩერდება სასტუმროს მშენებლობა გერგეთის ქუჩა N 1-შიც. "},
     {appearTime:290, title:"„პანორამა თბილისი“", subtitle:"უ<br>ხ<br>ე<br>შ<br>ა<br>დ", text:"„პანორამა თბილისი“ უხეშად იჭრება თბილისის ისტორიულ ლანდშაფტში. "},
-    {appearTime:301, title:"მაგრამ", subtitle:"მ<br>ა<br>გ<br>რ<br>ა<br>მ<br>:", text:"მაგრამ ის მაინც აშენდება."}
+    {appearTime:300, title:"მაგრამ", subtitle:"მ<br>ა<br>გ<br>რ<br>ა<br>მ<br>:", text:"მაგრამ ის მაინც აშენდება.", end:"slide-up"}
 ];
 
 let title = document.querySelector('h1.headings');
 let subtitle = document.querySelector("h2.headings");
 let text = document.querySelector(".inner-text");
+let img = document.querySelector(".bg-black");
+let end = document.querySelector(".the-end");
 let current = 0;
 let qbefore = document.querySelector('.q-sign.before');
 let qafter = document.querySelector('.q-sign.after');
@@ -36,8 +38,10 @@ let textImageHandler = () =>{
         title.innerHTML = textImages[current].title;
         subtitle.innerHTML = textImages[current].subtitle;
         text.innerHTML = textImages[current].text;
+        img.className += " " + textImages[current].img;
+        end.className += " " + textImages[current].end;
 
-        document.querySelector('.background').classList.add('black-hole');
+        // document.querySelector('.bg-black').classList.add('fade-out');
         current++;
     }
     if(current > 1){
