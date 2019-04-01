@@ -364,14 +364,14 @@ main {
     display: none;
   }
 }
- /* @keyframes panorama{
+ @keyframes panorama{
   from {
     transform: translate(0, 0);
   }
   to {
     transform: translate(1700px, 0);
   }
-} */
+}
 /*@keyframes map{
   from {
     transform: translate(0, 0);
