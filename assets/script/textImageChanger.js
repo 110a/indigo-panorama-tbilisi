@@ -38,7 +38,9 @@ let textImageHandler = () =>{
         title.innerHTML = textImages[current].title;
         subtitle.innerHTML = textImages[current].subtitle;
         text.innerHTML = textImages[current].text;
-        img.className += " " + textImages[current].img;
+        if(textImages[current].img){
+            img.className += " " + textImages[current].img;
+        }
         end.className += " " + textImages[current].end;
         console.log(audio.currentTime);
 

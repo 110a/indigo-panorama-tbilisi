@@ -649,4 +649,9 @@ footer a:hover {
   }
 }
 
+.class-hidden{
+  visibility: hidden;
+  opacity: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
