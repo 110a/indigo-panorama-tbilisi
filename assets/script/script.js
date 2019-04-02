@@ -13,3 +13,11 @@ document.querySelector('.wc-play').addEventListener('click',function () {
     /* temporary script by ani */
     document.querySelector('.part-1').classList.add('active');
 });
+
+
+window.onload = () => {
+  // run in onload
+  setTimeout(() => {
+    document.querySelector('.wc-play').classList.add('active');
+  }, 3000)
+}
