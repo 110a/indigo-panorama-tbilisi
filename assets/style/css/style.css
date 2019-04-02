@@ -342,6 +342,18 @@ main {
   color: #fff;
   margin: 10px;
 }
+.wc-by {
+  font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    font-size: 11px;
+    width: 100%;
+    padding-right: 40px;
+    text-align: right;
+    color: #ccc;
+}
+.wc-by img {
+    width: 40px;
+    margin: 40px 0 20px 0;
+}
 .welcome-cont .wc-text.out {
   animation: fade-out-bottom 1000ms ease-out;
 }
