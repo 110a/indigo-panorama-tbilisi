@@ -9,11 +9,14 @@ let currentTime = document.querySelector('.current-time');
 let progress = document.querySelector('.progress');
 let soundControl = document.getElementsByClassName('cls-1');
 let lastVolume = audio.volume;
+let hidden =  document.querySelectorAll('.class-hidden');
+
 for(let i =0; i<soundControl.length; i++){
     soundControl[i].classList.add('active');
 }
 
 let playPause = () => {
+
     if(isPLaying){
         audio.play();
         playPauseButton.classList.add('paused');

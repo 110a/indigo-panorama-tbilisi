@@ -1,5 +1,10 @@
 let wcont = document.querySelector('.welcome-cont');
 document.querySelector('.wc-play').addEventListener('click',function () {
+    for(let i=0; i<hidden.length; i++){
+        if (hidden[i].classList.contains('class-hidden')){
+            hidden[i].classList.remove('class-hidden');
+        }
+    }
     audio.play();
     playPauseButton.classList.add('paused');
     document.querySelector('.wc-play').classList.add('out');
