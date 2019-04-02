@@ -353,6 +353,10 @@ main {
     bottom: 10px;
     right: 0px;
 }
+.wc-by img {
+  width: 40px;
+  margin: 40px 0 20px 0;
+}
 .welcome-cont .wc-text.out {
   animation: fade-out-bottom 1000ms ease-out;
 }
