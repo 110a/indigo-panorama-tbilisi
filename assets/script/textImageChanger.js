@@ -34,6 +34,9 @@ let animation = document.querySelector('.panorama');
 
 
 let textImageHandler = () =>{
+    if (current>=textImages.length - 1){
+        current=textImages.length - 1;
+    }
     if (audio.currentTime >= parseInt(textImages[current].appearTime) ){
         title.innerHTML = textImages[current].title;
         subtitle.innerHTML = textImages[current].subtitle;
@@ -43,9 +46,9 @@ let textImageHandler = () =>{
             animation.classList.add('animation');
 
         }
-        end.className += " " + textImages[current].end;
-        console.log(audio.currentTime);
-
+        if(audio.currentTime > 295) {
+            end.className += " slide-up";
+        }
         current++;
     }
     if(current > 1){
