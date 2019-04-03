@@ -105,6 +105,12 @@ body, html {
   width: 2400px;
   right: 0px;
   top: 0px;
+  -webkit-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+
+.panorama.animation{
   animation: panorama 145s infinite alternate;
 }
 

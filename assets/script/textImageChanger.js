@@ -29,7 +29,7 @@ let end = document.querySelector(".the-end");
 let current = 0;
 let qbefore = document.querySelector('.q-sign.before');
 let qafter = document.querySelector('.q-sign.after');
-
+let animation = document.querySelector('.panorama');
 
 
 
@@ -40,6 +40,8 @@ let textImageHandler = () =>{
         text.innerHTML = textImages[current].text;
         if(textImages[current].img){
             img.className += " " + textImages[current].img;
+            animation.classList.add('animation');
+
         }
         end.className += " " + textImages[current].end;
         console.log(audio.currentTime);
