@@ -432,15 +432,6 @@ main {
     transform: translate(0px, 0);
   }
 }
-/*@keyframes map{
-  from {
-    transform: translate(0, 0);
-  }
-  to {
-    transform: translate(15px, 20px);
-  }
-} */
-
 .video-player .controls .progress {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -556,6 +547,14 @@ footer a:hover {
 .read-article{
 
 }
+@media only screen and (max-height: 600px) {
+  body, html {
+  overflow-x: hidden;
+  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+}
+}
 @media only screen and (max-width: 1080px) {
   section.part-1.active .flex-align .headings.main-heading {
     display: none;
@@ -594,9 +593,6 @@ footer a:hover {
   .welcome-cont .wc-title h1 {
     font-size: 2em;
   }
-  .panorama, .bg-black, .bg-black-hole {
-  background-size: 2000px;
-  }
   section.part-1.active .flex-align {
     padding: 0 10% 0 0;
   }
@@ -619,6 +615,14 @@ footer a:hover {
   .bg-black, .bg-black-hole {
   background-size: 1600px;
   }
+   @keyframes panorama{
+  from {
+    transform: translate(1400px, 0);
+  }
+  to {
+    transform: translate(0px, 0);
+  }
+}
   section.part-1.active .flex-align {
     padding: 0 0% 0 0;
   }
@@ -658,15 +662,15 @@ footer a:hover {
     padding-right: 5%;
   }
     .panorama, .bg-black, .bg-black-hole {
-  /* background-size: 1400px; */
+/*   background-size: 1400px; */
   }
       section.part-1.active .flex-align .headings {
-    width: 80px;
+    width: 10px;
     padding-left: 60px;
+    font-size: 30px;
   }
-    .panorama, .bg-black, .bg-black-hole {
-    min-height: 100%;
-    padding-right: 30px;
+  .panorama, .bg-black, .bg-black-hole {
+    padding-right: 60px;
   }
 }
 
