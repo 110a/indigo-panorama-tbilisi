@@ -6,7 +6,8 @@
 }
 @font-face {
   font-family: "BPGNinoMkhedruliBook";
-  src: url("../../fonts/BPGNinoMkhedruliBook.woff2") format("woff2"), url("../../fonts/BPGNinoMkhedruliBook.woff") format("woff");
+  src: url("../../fonts/BPGNinoMkhedruliBook.woff2") format("woff2"),
+  url("../../fonts/BPGNinoMkhedruliBook.woff") format("woff");
   font-weight: normal;
   font-style: italic;
 }
