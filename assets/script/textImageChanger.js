@@ -48,6 +48,8 @@ let textImageHandler = () =>{
         }
         if(audio.currentTime > 293) {
             end.className += " slide-up";
+            console.log(audio.currentTime);
+
             console.log(231321);
         }
         current++;
