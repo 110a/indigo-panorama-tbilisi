@@ -49,7 +49,7 @@ let textImageHandler = () =>{
         current++;
     }
     /*last slide*/
-    if(audio.currentTime > audio.duration - 25) {
+    if(audio.currentTime > audio.duration - 24) {
         if(!end.classList.contains('slide-up')){
             end.classList.add('slide-up');
         }
