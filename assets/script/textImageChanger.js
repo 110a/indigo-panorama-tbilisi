@@ -18,7 +18,7 @@ const textImages = [
     {appearTime:260, title:"ახალი გენ-გეგმა", subtitle:"", text:"ახალ გენ-გეგმაში ისტორიული ლანდშაფტის დაცვის ზონა ისევ ბრუნდება."},
     {appearTime:270, title:"გერგეთის ქუჩა <br> N 1", subtitle:"პ<br>ი<br>რ<br>ო<br>ბ<br>ა<br>:", text:"თბილისის მერი პირობას დებს რომ შეჩერდება სასტუმროს მშენებლობა გერგეთის ქუჩა N 1-შიც. "},
     {appearTime:290, title:"„პანორამა თბილისი“", subtitle:"უ<br>ხ<br>ე<br>შ<br>ა<br>დ<br>:", text:"„პანორამა თბილისი“ უხეშად იჭრება თბილისის ისტორიულ ლანდშაფტში. "},
-    {appearTime:299, title:"მაგრამ", subtitle:"მ<br>ა<br>გ<br>რ<br>ა<br>მ<br>:", text:"ის მაინც აშენდება.", end:"slide-up"}
+    {appearTime:299, title:"მაგრამ", subtitle:"მ<br>ა<br>გ<br>რ<br>ა<br>მ<br>:", text:"ის მაინც აშენდება."}
 ];
 
 let title = document.querySelector('h1.headings');
@@ -46,11 +46,16 @@ let textImageHandler = () =>{
             animation.classList.add('animation');
 
         }
-        if(audio.currentTime > 295) {
-            end.className += " slide-up";
-        }
         current++;
     }
+    /*last slide*/
+    if(audio.currentTime > audio.duration - 24) {
+        if(!end.classList.contains('slide-up')){
+            end.classList.add('slide-up');
+        }
+    }
+    
+   /*last slide*/
     if(current > 1){
 
         qbefore.style.visibility="hidden";
