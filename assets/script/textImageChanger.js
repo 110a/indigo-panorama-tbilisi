@@ -48,9 +48,14 @@ let textImageHandler = () =>{
         }
         current++;
     }
+    /*last slide*/
     if(audio.currentTime > audio.duration - 25) {
-        end.classList.add('slide-up');
+        if(!end.classList.contains('slide-up')){
+            end.classList.add('slide-up');
+        }
     }
+    
+   /*last slide*/
     if(current > 1){
 
         qbefore.style.visibility="hidden";
