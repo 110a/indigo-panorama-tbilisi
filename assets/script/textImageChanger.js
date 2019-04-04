@@ -46,7 +46,7 @@ let textImageHandler = () =>{
             animation.classList.add('animation');
 
         }
-        if(audio.currentTime > 293) {
+        if(audio.currentTime > 13) {
             end.className += " slide-up";
             console.log(audio.currentTime);
 
