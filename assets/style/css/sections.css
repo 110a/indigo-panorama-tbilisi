@@ -4,12 +4,12 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "BPGNinoMkhedruliBook";
+/* @font-face {
+  font-family: "BPG Nino Mkhedruli Book";
   src: url("../../fonts/BPGNinoMkhedruliBook.woff2") format("woff2"), url("../../fonts/BPGNinoMkhedruliBook.woff") format("woff");
   font-weight: normal;
   font-style: italic;
-}
+} */
 section {
   position: relative;
 }
@@ -59,7 +59,7 @@ section.part-1.active .flex-align h3 {
 section.part-1.active .flex-align h3 .inner-text {
   font-weight: normal;
   font-size: 16px;
-  font-family: "BPGNinoMkhedruliBook", sans-serif;
+  font-family: "BPG Nino Mkhedruli Book", sans-serif;
   line-height: 26px;
 }
 section.part-1.active .flex-align h3 .q-sign.before {
