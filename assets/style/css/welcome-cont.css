@@ -5,7 +5,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "BPG Nino Mkhedruli Book";
+  font-family: "BPGNinoMkhedruliBook";
   src: url("../../fonts/BPGNinoMkhedruliBook.woff2") format("woff2"), url("../../fonts/BPGNinoMkhedruliBook.woff") format("woff");
   font-weight: normal;
   font-style: italic;
@@ -35,7 +35,7 @@
 }
 .welcome-cont .wc-title p {
   margin-top: 20px;
-  font-family: "BPG Nino Mkhedruli Book", sans-serif;
+  font-family: "BPGNinoMkhedruliBook", sans-serif;
   font-size: 1.125em;
 }
 .welcome-cont .wc-title.out {
@@ -80,7 +80,7 @@
   text-align: center;
 }
 .welcome-cont .wc-text p {
-  font-family: "BPG Nino Mkhedruli Book", sans-serif;
+  font-family: "BPGNinoMkhedruliBook", sans-serif;
   font-size: 1.375em;
   color: #fff;
   margin: 10px;

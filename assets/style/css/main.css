@@ -1,12 +1,14 @@
 @font-face {
   font-family: "GL Satitulo";
-  src: url("../../fonts/GLSatitulo-Regular.woff2") format("woff2"), url("../../fonts/GLSatitulo-Regular.woff") format("woff");
+  src: url("../../fonts/GLSatitulo-Regular.woff2") format("woff2"),
+  url("../../fonts/GLSatitulo-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "BPG Nino Mkhedruli Book";
-  src: url("../../fonts/BPGNinoMkhedruliBook.woff2") format("woff2"), url("../../fonts/BPGNinoMkhedruliBook.woff") format("woff");
+  font-family: "BPGNinoMkhedruliBook";
+  src: url("../../fonts/BPGNinoMkhedruliBook.woff2") format("woff2"),
+  url("../../fonts/BPGNinoMkhedruliBook.woff") format("woff");
   font-weight: normal;
   font-style: italic;
 }
@@ -85,7 +87,7 @@ body .background .overlay .main-content .sound-timing .timing {
   left: -26px;
 }
 body .background .overlay .main-content .sound-timing .timing span {
-  font-family: "BPG Nino Mkhedruli Book", sans-serif;
+  font-family: "BPGNinoMkhedruliBook", sans-serif;
   font-size: 1.5em;
   color: #9E7978;
   width: 50px;
